@@ -19,8 +19,43 @@ header{
 }
 
 h1{
-    font-weight: 700;
     padding: 25px;
     color: #e53371;
 }
 
+p, a{
+    margin: 0;
+}
+
+a{
+    color: #5facc3;
+}
+/* utilities */
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.bolder{
+    font-weight: 700;
+}
+
+/* cards */
+
+.card-details{
+    color: #fff;
+}
+
+.card{
+    margin: 0 10px;
+    width: calc(100% / 3);
+    float: left;
+    background-color: #000000;
+    }
+
+.card-photo{
+    float: left;
+    width: 100px;
+}
